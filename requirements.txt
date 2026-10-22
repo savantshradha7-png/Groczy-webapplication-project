@@ -4,3 +4,4 @@ Flask-WTF==1.2.2
 PyMySQL==1.1.1
 python-dotenv==1.1.1
 pytest==8.4.1
+gunicorn
