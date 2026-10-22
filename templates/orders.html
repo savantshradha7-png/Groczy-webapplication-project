@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<div class="container section-pad"><span class="eyebrow">PAST AND PRESENT</span><h1>My orders</h1><div id="orders-list" class="loading">Loading your orders…</div></div>{% endblock %}{% block scripts %}<script src="{{ url_for('static',filename='js/customer.js') }}"></script><script>loadOrders()</script>{% endblock %}
